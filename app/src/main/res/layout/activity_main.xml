@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/uda9" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Udacity"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2465 Latham St"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/tv1"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mountain View, CA 94043"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/tv2"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="650-555-5555"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/tv3"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/black"/>
+
+    </RelativeLayout>
